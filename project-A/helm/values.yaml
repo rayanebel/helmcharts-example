@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: rayanebel/rbe-test-app
-  tag: 0.1.${CIRCLE_BUILD_NUM}
+  tag: 0.1.46
   pullPolicy: Always
 imagePullSecrets: []
 nameOverride: ""
