@@ -1,18 +1,14 @@
 replicaCount: 1
-
 image:
   repository: rayanebel/rbe-test-app
-  tag: 0.1.8
+  tag: 0.1.$CIRCLE_BUILD_NUM
   pullPolicy: Always
-
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
 service:
   type: ClusterIP
   port: 80
-
 resources:
   limits:
     cpu: 100m
@@ -20,9 +16,6 @@ resources:
   requests:
     cpu: 100m
     memory: 128Mi
-
 nodeSelector: {}
-
 tolerations: []
-
 affinity: {}
