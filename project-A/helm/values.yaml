@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: rayanebel/rbe-test-app
-  tag: 0655f36c175a691
+  tag: 8bb41bc685c7f69
   pullPolicy: Always
 imagePullSecrets: []
 nameOverride: ""
