@@ -1,0 +1,21 @@
+replicaCount: 2
+image:
+  repository: rayanebel/rbe-test-app
+  tag: 8bb41bc685c7f69
+  pullPolicy: Always
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+service:
+  type: ClusterIP
+  port: 80
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+nodeSelector: {}
+tolerations: []
+affinity: {}
