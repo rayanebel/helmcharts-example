@@ -1,4 +1,5 @@
 replicaCount: 1
+configmapName: test
 image:
   repository: rayanebel/rbe-test-app
   tag: 87f358d9f19dd20
