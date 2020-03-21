@@ -19,3 +19,6 @@ resources:
 nodeSelector: {}
 tolerations: []
 affinity: {}
+core:
+  image:
+    tag: bf5f435254d9d3f
