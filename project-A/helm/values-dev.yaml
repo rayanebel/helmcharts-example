@@ -22,4 +22,4 @@ tolerations: []
 affinity: {}
 core:
   image:
-    tag: ea534b59aaef641
+    tag: ac805e8da903b95
