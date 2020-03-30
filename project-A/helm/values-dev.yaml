@@ -2,7 +2,7 @@ replicaCount: 2
 configmapName: test-1
 image:
   repository: rayanebel/rbe-test-app
-  tag: 7c0bf58610b9d39
+  tag: 43020a8f132a1e9
   pullPolicy: Always
 imagePullSecrets: []
 nameOverride: ""
